@@ -20,7 +20,8 @@ app.get("/contact", (req, res) => {
 
 app.get("/about-us", (req, res) => {
   //res.send("<h1>About Us Page</h1>");
-  res.json({ user: "baburao", balance: "2500", id: "stargerage" });
+  res.status(200).json({ user: "baburao", balance: "2500", id: "stargerage" });
+  //res.status(500).json({ error: "Something went wrong" });
 });
 
 app.get("/user/:id/status/:status_id", (req, res) => {
