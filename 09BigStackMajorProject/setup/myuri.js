@@ -1,5 +1,5 @@
 // Secret and MonogoURL
 module.exports = {
-    mongoURL: "mongodb://localhost:27017/BigStackDB",
+    mongoURL: "ADD MONGODB URL HERE",
     secret: "p@St@-Al-dAntE"
 }
